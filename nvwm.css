@@ -1,11 +1,13 @@
 #Red_Row
 {
   background-color: red;
+  text-align: center;
 }
 
 #Yellow_Row
 {
   background-color: yellow;
+  text-align: center;
 }
 
 .block
