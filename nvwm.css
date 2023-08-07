@@ -5,6 +5,7 @@
   height: 60px;
   position: relative;
   top: 75px;
+  left: 25%;
 }
 #Yellow_Row
 {
@@ -13,6 +14,7 @@
   height: 60px;
   position: relative;
   top: 60px;
+  right: 25%;
 }
 
 .block
