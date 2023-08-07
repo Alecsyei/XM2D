@@ -1,12 +1,3 @@
-#Red_Row
-{
-  background-color: #FF433D;
-  text-align: center;
-  height: 60px;
-  position: relative;
-  top: 75px;
-  left: 10%;
-}
 #Yellow_Row
 {
   background-color: #FED636;
@@ -16,7 +7,23 @@
   top: 60px;
   right: 10%;
 }
-
+#Red_Row
+{
+  background-color: #FF433D;
+  text-align: center;
+  height: 60px;
+  position: relative;
+  top: 75px;
+  left: 10%;
+}
+#BtnBgdPos1
+{
+  padding: 6px;
+}
+#BtnBgdPos2
+{
+  margin: 6px;
+}
 .block
 {
   margin: 5px;
