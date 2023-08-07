@@ -13,11 +13,13 @@ header
 header li
 {
   display: inline;
-  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 header li a
 {
+  text-align: center;
   text-decoration: none;
   color: #000;
 }
