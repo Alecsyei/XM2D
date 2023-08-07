@@ -19,7 +19,7 @@
   position: relative;
   left: 12%;
   display: flex;
-  justify-content: space-around;
+  gap: 1rem;
 }
 #BtnBgdPos2
 {
