@@ -24,6 +24,8 @@
 .block
 {
   margin: 10px;
-  color: darkgreen;
-  background-color: darkgreen;
+  height: 35px;
+  width: 35px;
+  color: green;
+  background-color: green;
 }
