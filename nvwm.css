@@ -3,7 +3,6 @@
   background-color: #FED636;
   text-align: center;
   height: 60px;
-  width: 100%;
   position: relative;
   top: 60px;
 }
@@ -19,12 +18,13 @@
 {
   position: relative;
   left: 12%;
+  padding: 30px;
 }
 #BtnBgdPos2
 {
   position: relative;
   right: 12%;
-  
+  padding: 0px;
 }
 .block
 {
