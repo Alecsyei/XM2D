@@ -3,3 +3,9 @@ header
   text-align: center;
   box-shadow: 0 0 3px #000;
 }
+
+header li
+{
+  display: inline;
+  padding-left: 45px;
+}
