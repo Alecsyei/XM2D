@@ -9,3 +9,9 @@ header li
   display: inline;
   padding-left: 45px;
 }
+
+header li a
+{
+  text-decoration: none;
+  color: #000;
+}
