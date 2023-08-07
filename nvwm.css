@@ -3,16 +3,16 @@
   background-color: #FF433D;
   text-align: center;
   height: 60px;
-  position: absolute;
-  top: 65%;
+  position: relative;
+  top: 70px;
 }
 #Yellow_Row
 {
   background-color: #FED636;
   text-align: center;
   height: 60px;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 60px;
 }
 
 .block
