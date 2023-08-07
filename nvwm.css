@@ -17,15 +17,17 @@
 #BtnBgdPos1
 {
   position: relative;
-  left: 5%;
+  width: 95%;
   display: flex;
+  justify-content: flex-end;
   gap: 1rem;
 }
 #BtnBgdPos2
 {
   position: relative;
-  right: 5%;
+  width: 95%;
   display: flex;
+  justify-content: flex-start;
   gap: 1rem;
 }
 .block
