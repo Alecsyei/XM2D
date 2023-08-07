@@ -2,15 +2,18 @@
 {
   background-color: red;
   text-align: center;
+  height: 80px;
 }
 
 #Yellow_Row
 {
   background-color: yellow;
   text-align: center;
+  height: 80px;
 }
 
 .block
 {
-  color: #4CAF50;
+  color: darkgreen;
+  background-color: darkgreen;
 }
