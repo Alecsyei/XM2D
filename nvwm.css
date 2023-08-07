@@ -20,12 +20,12 @@
   width: 95%;
   display: flex;
   justify-content: flex-end;
-  gap: 1rem;
+  gap: 5%;
 }
 #BtnBgdPos2
 {
   position: relative;
-  width: 95%;
+  width: 90%;
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
