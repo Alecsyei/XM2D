@@ -13,9 +13,9 @@ header
 
 header li
 {
-  padding: 60px;
-  text-align: center;
+  padding: 5px;
   display: inline;
+  text-align: center;
 }
 
 header li a
