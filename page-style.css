@@ -13,6 +13,7 @@ header
 
 header li
 {
+  padding: 60px;
   display: inline;
 }
 
