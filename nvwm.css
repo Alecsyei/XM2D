@@ -18,13 +18,13 @@
 {
   position: relative;
   left: 12%;
-  padding: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 #BtnBgdPos2
 {
   position: relative;
   right: 12%;
-  padding: 0px;
 }
 .block
 {
