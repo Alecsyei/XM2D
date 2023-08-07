@@ -1,6 +1,7 @@
 body
 {
   overflow-x: hidden;
+  font-family: "Courier New", monospace;
 }
 
 header
@@ -21,6 +22,5 @@ header li
 header li a
 {
   text-decoration: none;
-  font-family: "Courier New", monospace;
   color: #000;
 }
