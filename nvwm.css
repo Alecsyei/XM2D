@@ -3,13 +3,18 @@
   background-color: #FF433D;
   text-align: center;
   height: 60px;
-  margin: 25px;
+  position: absolute;
+  top: 65%
+  margin: 5px;
 }
 #Yellow_Row
 {
   background-color: #FED636;
   text-align: center;
   height: 60px;
+  position: absolute;
+  top: 50%;
+  margin: 5px;
 }
 
 .block
