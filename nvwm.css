@@ -1,6 +1,6 @@
 #Red_Row
 {
-  background-color: red;
+  background-color: #FF433D;
   text-align: center;
   height: 80px;
 }
@@ -16,7 +16,7 @@
 }
 #Yellow_Row
 {
-  background-color: yellow;
+  background-color: #FED636;
   text-align: center;
   height: 80px;
 }
@@ -24,8 +24,7 @@
 .block
 {
   margin: 10px;
-  height: 35px;
-  width: 35px;
-  color: green;
-  background-color: green;
+  height: 45px;
+  width: 45px;
+  color: #47BF55;
 }
