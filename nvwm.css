@@ -39,11 +39,10 @@
 {
   position: relative;
   top: 90px;
-  display: flex;
-  justify-content: center;
 }
 #main_buttons ul
 {
   display: flex;
   gap: 15px;
+  justify-content: center;
 }
