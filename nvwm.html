@@ -41,12 +41,12 @@
     const start = document.getElementById("start");
     
     start.addEventListener("click", function(startfn){
-      start.Disabled = true;
+      start.disabled = true;
       const startingSeconds = 5;
       let seconds = startingSeconds;
       setInterval(countdownFn, 1000);
       function countdownFn(){
-        if (seconds != -1)
+        if (seconds >= 0)
         {
           countdown.innerHTML = `${seconds}`;
           seconds--;
