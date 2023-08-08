@@ -53,5 +53,11 @@ body
   flex-direction: column;
   gap: 15px;
   justify-content: flex-start;
-  
 }
+#submit
+{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+#start{}
+#restart{}
