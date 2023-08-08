@@ -39,11 +39,12 @@
     const countdown = document.getElementById("countdown");
     
     const start = document.getElementById("start");
+    
     start.addEventListener("click", function(startfn){
       const startingSeconds = 5;
-      setInterval(countdown, 1000);
-      function countdown(){
-        let seconds = startingSeconds;
+      let seconds = 5;
+      setInterval(countdownFn, 1000);
+      function countdownFn(){
         countdown.innerHTML = `${seconds}`;
         seconds--;
       }
