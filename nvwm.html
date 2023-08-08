@@ -37,12 +37,16 @@
   </body>
   <script>
     const countdown = document.getElementById("countdown");
-    const node = document.createTextNode("");
-    countdown.appendChild(node);
     
     const start = document.getElementById("start");
     start.addEventListener("click", function(startfn){
-      
+      const startingSeconds = 5;
+      setInterval(countdown, 1000);
+      function countdown(){
+        let seconds = startingSeconds;
+        countdown.innerHTML = `${seconds}`;
+        seconds--;
+      }
     });
     
   </script>
