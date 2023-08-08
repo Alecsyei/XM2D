@@ -2,7 +2,11 @@ body
 {
   font-family: "Courier New", monospace;
 }
-
+#countdownDiv
+{
+  display: flex;
+  justify-content: center;
+}
 #Yellow_Row
 {
   background-color: #FED636;
