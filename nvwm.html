@@ -39,6 +39,8 @@
     const countdown = document.getElementById("countdown");
     countdown.innerHTML = "countdown: ";
     const start = document.getElementById("start");
+    const blocks = document.getElementsByClassName("block");
+    blocks.disabled = true;
     
     start.addEventListener("click", function(startfn){
       start.disabled = true;
