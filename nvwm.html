@@ -8,6 +8,7 @@
   </head>
   <body>
     <h2 style="display: flex; justify-content: center;">Non-Verbal Working Memory</h2>
+    <div id="countdownDiv"></div>
     <div id="Yellow_Row">
       <div id="BtnBgdPos1">
         <button id="1" class="block"></button>
@@ -32,5 +33,18 @@
       </ul>
     </div>
   </body>
+  <script>
+    const start = document.getElementById("start");
+    start.addEventListener("click", (startfn));
+    function(startfn){
+      
+    }
+    const countdown = document.createElement("h3");
+    const node = document.createTextNode("3");
+    countdown.appendChild(node);
+
+    const element = document.getElementById("countdownDiv");
+    element.appendChild(countdown);
+  </script>
   <!-- cum -->
 </html>
