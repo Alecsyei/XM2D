@@ -46,7 +46,7 @@
       let seconds = 5;
       setInterval(countdownFn, 1000);
       function countdownFn(){
-        if (seconds != 0)
+        if (seconds != -1)
         {
           countdown.innerHTML = `${seconds}`;
           seconds--;
