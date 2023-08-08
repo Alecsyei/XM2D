@@ -44,6 +44,8 @@ body
 {
   position: relative;
   top: 90px;
+  display: flex;
+  justify-content: center;
 }
 #main_buttons ul
 {
