@@ -1,3 +1,8 @@
+body
+{
+  font-family: "Courier New", monospace;
+}
+
 #Yellow_Row
 {
   background-color: #FED636;
@@ -43,6 +48,8 @@
 #main_buttons ul
 {
   display: flex;
+  flex-direction: column;
   gap: 15px;
   justify-content: center;
+  
 }
