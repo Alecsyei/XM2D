@@ -34,16 +34,16 @@
     </div>
   </body>
   <script>
-    const start = document.getElementById("start");
-    start.addEventListener("click", function(startfn){
-      
-    });
     const countdown = document.createElement("h3");
     const node = document.createTextNode("3");
     countdown.appendChild(node);
-
-    const element = document.getElementById("countdownDiv");
-    element.appendChild(countdown);
+    
+    const start = document.getElementById("start");
+    start.addEventListener("click", function(startfn){
+      const element = document.getElementById("countdownDiv");
+      element.appendChild(countdown);
+    });
+    
   </script>
   <!-- cum -->
 </html>
