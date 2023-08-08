@@ -47,11 +47,11 @@
     const arrow = document.createElement("img");
     arrow.src = "images/arrowdown.svg";
 
-    const arrowParent = document.getElementById("1");
+    let arrowParent = document.getElementById("1");
     arrowParent.appendChild(arrow);
 
     function level4(){
-      
+      arrowParent = document.getElementById("2");
     }
     
     start.addEventListener("click", function(startfn){
@@ -66,6 +66,7 @@
           seconds--;
         } else {
           countdown.innerHTML = "countdown: ";
+          level4();
         }
       }
     });
