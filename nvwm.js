@@ -11,7 +11,6 @@
 
     const levels = { 
     "level4": {
-      "itemtest": 8,
       "item1": 472,
       "item2": 263,
       "item3": 7652,
@@ -45,7 +44,7 @@
         output.push(+sNumber.charAt(i))};
     //
         
-      arrowParent = document.getElementById(output[0]);
+      arrowParent = document.getElementById(output[1]);
       arrowParent.appendChild(arrow);  
     };
     
