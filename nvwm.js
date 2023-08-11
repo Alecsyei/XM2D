@@ -36,16 +36,21 @@
     //
       var currentItemNumber = 1;
       var currentItemName = `item${currentItemNumber}`;
-      var number = levels.level4[currentItemName], //breaks all
+      var number = levels.level4[currentItemName],
       output = [],
       sNumber = number.toString();
 
       for (var i = 0, len = sNumber.length; i < len; i += 1) {
         output.push(+sNumber.charAt(i))};
+
+      var arrayLength = output.Length;
     //
+      var outputCurrentNumber = 0;
         
       arrowParent = document.getElementById(output[0]);
       arrowParent.appendChild(arrow);  
+
+      
     };
     
     start.addEventListener("click", function(startfn){
