@@ -34,16 +34,16 @@
       "item6": 35846764}};
 
     function level4(){ //level4 function
-      let currentItemNumber = 1;
-      let currentItemName = "item" + currentItemNumber;
+      var currentItemNumber = 1;
+      var currentItemName = "item" + currentItemNumber;
 //
-    var number = levels.level4.[currentItemName],
-    output = [],
+    var number = levels.level4.[currentItemName];
+    output = [];
     sNumber = number.toString();
 
     for (var i = 0, len = sNumber.length; i < len; i += 1) {
         output.push(+sNumber.charAt(i))
-    }
+    };
 //
         
       arrowParent = document.getElementById(levels.level4.[output.1]);
