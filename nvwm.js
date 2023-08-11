@@ -35,14 +35,14 @@
 
     function level4(){ //level4 function
     //
-      //var currentItemNumber = 1;
+      var currentItemNumber = 1;
       //var currentItemName = `item${currentItemNumber}`;
       var number = levels.level4.item1,
       output = [],
       sNumber = number.toString();
 
-      for (var i2 = 0, len = sNumber.length; i2 < len; i2 += 1) {
-        output.push(+sNumber.charAt(i2))};
+      for (var i = 0, len = sNumber.length; i < len; i += 1) {
+        output.push(+sNumber.charAt(i))};
     //
         
       arrowParent = document.getElementById(levels.level4.itemtest);
