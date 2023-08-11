@@ -11,7 +11,6 @@
 
     const levels = { 
     "level4": {
-      "itemtest": 6,
       "item1": 472,
       "item2": 263,
       "item3": 7652,
