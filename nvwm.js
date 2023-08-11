@@ -36,7 +36,7 @@
     //
       var currentItemNumber = 1;
       var currentItemName = `item"${currentItemNumber}`;
-      var number = levels.level4[currentItemName], //breaks all
+      var number = levels.level4.item3, //breaks all
       output = [],
       sNumber = number.toString();
 
