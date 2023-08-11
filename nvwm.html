@@ -47,9 +47,17 @@
     const arrow = document.createElement("img");
     arrow.src = "images/arrowdown.svg";
 
-    function level4(){
+    import digitsText from 'nvwm.json' assert {type: 'json'};
+
+    function level4(){ //level4 function
       arrowParent = document.getElementById("2");
       arrowParent.appendChild(arrow);
+
+      const newText = document.createElement("p");
+      const newTextNode = document.createTextNode(digitsText);
+      newText.appendChild(newTextNode);
+      const Body = document.body;
+      Body.appendChild(newText);
     }
     
     start.addEventListener("click", function(startfn){
