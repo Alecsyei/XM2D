@@ -35,10 +35,10 @@
 
     function level4(){ //level4 function
     //
-      var currentItemNumber = 1;
-      var currentItemName = `item${currentItemNumber}`;
-      var number = levels.level4.[currentItemName];
-      output = [];
+      //var currentItemNumber = 1;
+      //var currentItemName = `item${currentItemNumber}`;
+      var number = levels.level4.item1,
+      output = [],
       sNumber = number.toString();
 
       for (var i2 = 0, len = sNumber.length; i2 < len; i2 += 1) {
