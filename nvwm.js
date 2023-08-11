@@ -45,7 +45,7 @@
         output.push(+sNumber.charAt(i))};
     //
         
-      arrowParent = document.getElementById(levels.level4.itemtest);
+      arrowParent = document.getElementById([output[0]]);
       arrowParent.appendChild(arrow);  
     };
     
