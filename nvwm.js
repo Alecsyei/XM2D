@@ -45,7 +45,7 @@
     };
 //
         
-      arrowParent = document.getElementById(levels.level4.[output.1]);
+      arrowParent = document.getElementById(levels.level4.[output[0]]);
       arrowParent.appendChild(arrow);
 
       
