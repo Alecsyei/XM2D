@@ -4,7 +4,7 @@
     
     var blocks = document.getElementsByClassName("block");
     for(var i = 0; i < blocks.length; i++) {
-    blocks[i].disabled = true;};
+        blocks[i].disabled = true;};
 
     const arrow = document.createElement("img");
     arrow.src = "images/arrowdown.svg";
@@ -34,21 +34,18 @@
 
     function level4(){ //level4 function
       var currentItemNumber = 1;
-      var currentItemName = "item" + currentItemNumber;
+      var currentItemName = `item${currentItemNumber}`;
 //
-    var number = levels.level4.[currentItemName];
-    output = [];
-    sNumber = number.toString();
+      var number = levels.level4.[currentItemName];
+      output = [];
+      sNumber = number.toString();
 
-    for (var i = 0, len = sNumber.length; i < len; i += 1) {
-        output.push(+sNumber.charAt(i))
-    };
+      for (var i = 0, len = sNumber.length; i < len; i += 1) {
+        output.push(+sNumber.charAt(i))};
 //
         
       arrowParent = document.getElementById(levels.level4.[output[0]]);
-      arrowParent.appendChild(arrow);
-
-      
+      arrowParent.appendChild(arrow);  
     };
     
     start.addEventListener("click", function(startfn){
