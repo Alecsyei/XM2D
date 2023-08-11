@@ -35,8 +35,8 @@
     function level4(){ //level4 function
     //
       var currentItemNumber = 1;
-      var currentItemName = `item"${currentItemNumber}`;
-      var number = levels.level4.item3, //breaks all
+      var currentItemName = `item${currentItemNumber}`;
+      var number = levels.level4[currentItemName], //breaks all
       output = [],
       sNumber = number.toString();
 
@@ -44,7 +44,7 @@
         output.push(+sNumber.charAt(i))};
     //
         
-      arrowParent = document.getElementById(output[1]);
+      arrowParent = document.getElementById(output[0]);
       arrowParent.appendChild(arrow);  
     };
     
