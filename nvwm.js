@@ -45,7 +45,7 @@
         output.push(+sNumber.charAt(i))};
     //
         
-      arrowParent = document.getElementById([output[0]]);
+      arrowParent = document.getElementById(output[0]);
       arrowParent.appendChild(arrow);  
     };
     
